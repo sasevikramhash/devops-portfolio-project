@@ -1,95 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A clean portfolio starter project for learning HTML, CSS and DevOps CI/CD.">
-  <title>Alex Morgan | DevOps Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Engineer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="#home">AM<span>.</span></a>
-    <nav aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a class="nav-cta" href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <main>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Dev<span>Portfolio.</span></h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <section class="hero" id="home">
-      <div class="hero-copy">
-        <p class="eyebrow">HELLO, I'M A DEVELOPER</p>
-        <h1>Building reliable<br><span>digital experiences.</span></h1>
-        <p class="hero-text">I'm learning web development and DevOps, one practical project at a time. This starter website is built with simple HTML and CSS.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#projects">Explore projects</a>
-          <a class="button button-secondary" href="#contact">Get in touch</a>
+        <div class="hero-content">
+            <p class="intro">HELLO, I AM</p>
+            <h1>Your Name</h1>
+            <h2>Aspiring <span>DevOps Engineer</span></h2>
+
+            <p class="description">
+                I am passionate about Cloud Computing, Automation,
+                Linux and building reliable CI/CD pipelines.
+            </p>
+
+            <a href="#projects" class="btn">Explore My Work</a>
         </div>
-      </div>
-      <div class="hero-card" aria-label="Profile summary">
-        <div class="avatar">AM</div>
-        <p class="card-label">CURRENT FOCUS</p>
-        <h2>Learn. Build.<br>Automate.</h2>
-        <div class="status"><span></span> Open to opportunities</div>
-      </div>
     </section>
 
-    <section class="section about" id="about">
-      <div class="section-heading">
-        <p class="eyebrow">A LITTLE ABOUT ME</p>
-        <h2>Curious mind.<br><span>Practical approach.</span></h2>
-      </div>
-      <p class="section-copy">I enjoy turning ideas into useful things. I'm currently developing my skills in HTML, CSS, Git, GitHub, Linux, AWS and CI/CD automation. My goal is to create projects that are easy to use and reliable to run.</p>
+    <section class="section" id="about">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+            <p>
+                I am an aspiring DevOps Engineer who enjoys learning
+                modern technologies and solving real-world problems.
+                I have hands-on practice with AWS, Linux, Git,
+                GitHub, Ansible and Terraform.
+            </p>
+
+            <p>
+                Currently, I am learning Jenkins, Docker and Kubernetes
+                to build automated deployment pipelines and cloud
+                infrastructure.
+            </p>
+        </div>
     </section>
 
-    <section class="section" id="skills">
-      <div class="section-title">
-        <p class="eyebrow">WHAT I'M LEARNING</p>
-        <h2>My skill set</h2>
-      </div>
-      <div class="skills-grid">
-        <article class="skill-card"><span class="skill-icon">⌘</span><h3>HTML</h3><p>Semantic page structure and accessible content.</p></article>
-        <article class="skill-card"><span class="skill-icon">✳</span><h3>CSS</h3><p>Layouts, responsive design and visual styling.</p></article>
-        <article class="skill-card"><span class="skill-icon">⑂</span><h3>Git & GitHub</h3><p>Version control, commits and collaboration.</p></article>
-        <article class="skill-card"><span class="skill-icon">↗</span><h3>DevOps</h3><p>Learning CI/CD, containers and cloud deployment.</p></article>
-      </div>
+    <section class="section skills" id="skills">
+        <h2 class="section-title">Technical Skills</h2>
+
+        <div class="skills-grid">
+            <div class="skill-card">Linux</div>
+            <div class="skill-card">AWS</div>
+            <div class="skill-card">Git & GitHub</div>
+            <div class="skill-card">Ansible</div>
+            <div class="skill-card">Terraform</div>
+            <div class="skill-card">Jenkins</div>
+            <div class="skill-card">Docker</div>
+            <div class="skill-card">Kubernetes</div>
+        </div>
     </section>
 
-    <section class="section projects" id="projects">
-      <div class="section-title">
-        <p class="eyebrow">SELECTED WORK</p>
-        <h2>Practice projects</h2>
-      </div>
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="project-art art-one"><span>01</span></div>
-          <div class="project-info"><p class="project-type">WEB DESIGN</p><h3>Personal Portfolio</h3><p>A responsive portfolio page built using HTML and CSS.</p></div>
-        </article>
-        <article class="project-card">
-          <div class="project-art art-two"><span>02</span></div>
-          <div class="project-info"><p class="project-type">DEVOPS</p><h3>CI/CD Starter</h3><p>A starter project to practise GitHub and Jenkins pipelines.</p></div>
-        </article>
-        <article class="project-card">
-          <div class="project-art art-three"><span>03</span></div>
-          <div class="project-info"><p class="project-type">CLOUD</p><h3>Cloud Deployment</h3><p>A future exercise to deploy a static website to AWS.</p></div>
-        </article>
-      </div>
+    <section class="section" id="projects">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>AWS EC2 Deployment</h3>
+                <p>
+                    Launched and configured EC2 instances
+                    and deployed a web server on AWS.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Terraform Infrastructure</h3>
+                <p>
+                    Created AWS EC2 instances and S3 buckets
+                    using Terraform.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Ansible Automation</h3>
+                <p>
+                    Automated Nginx installation and website
+                    deployment using Ansible playbooks.
+                </p>
+            </div>
+
+            <div class="project-card">
+                <h3>Jenkins CI/CD Pipeline</h3>
+                <p>
+                    Practising automated build, test and
+                    packaging workflows using Jenkins.
+                </p>
+            </div>
+        </div>
     </section>
 
-    <section class="contact" id="contact">
-      <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
-      <h2>Let's build something<br><span>great together.</span></h2>
-      <a class="button button-light" href="mailto:hello@example.com">Say hello ↗</a>
-    </section>
-  </main>
+    <section class="section contact" id="contact">
+        <h2 class="section-title">Contact Me</h2>
 
-  <footer class="site-footer">
-    <a class="logo" href="#home">AM<span>.</span></a>
-    <p>© 2026 Alex Morgan. Built with HTML & CSS.</p>
-    <a href="#home">Back to top ↑</a>
-  </footer>
+        <p>Interested in connecting or working together?</p>
+
+        <a href="mailto:your-email@example.com" class="btn">
+            Send Email
+        </a>
+    </section>
+
+    <footer>
+        <p>© 2026 Your Name | DevOps Portfolio</p>
+    </footer>
+
 </body>
 </html>
